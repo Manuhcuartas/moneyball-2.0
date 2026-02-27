@@ -1,0 +1,55 @@
+# --- Entornos Virtuales y Python ---
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Base de datos y Docker ---
+.db_data/
+postgres_data/
+
+# --- Variables de Entorno (¡CRÍTICO!) ---
+.env
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Next.js / Node ---
+node_modules/
+.next/
+out/
+build/
+dist/
+.npm
+.eslintcache
+*.tsbuildinfo
+next-env.d.ts
+
+# --- Logs y Debugging ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+mitmproxy_logs/
+*.txt
+# Si quieres guardar tus logs de mitmproxy pero no subirlos:
+capturas_proxy/
+
+# --- VS Code e IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# --- Archivos de prueba temporales ---
+backend/sample_match.json
+backend/test/fixtures/*
